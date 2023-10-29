@@ -1,0 +1,134 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8627384600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User logs in successfully",
+        "description": "",
+        "id": "login-feature;user-logs-in-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 842815000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 227220901,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the login page",
+            "match": {
+              "location": "LoginPageSteps.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 227708300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on accept cookies button",
+            "match": {
+              "location": "LoginPageSteps.userClicksOnAcceptCookiesButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1198856500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the text on the Login Page \u0027Login to\u0027",
+            "match": {
+              "location": "LoginPageSteps.verifyTheTextOnTheLoginPageLoginTo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136256399,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters valid User Name",
+            "match": {
+              "location": "LoginPageSteps.userEntersValidUserName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161996500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters valid Password",
+            "match": {
+              "location": "LoginPageSteps.userEntersValidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3399908900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "LoginPageSteps.userClicksTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163573200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be redirected to the home page and verify the text britain\u0027s biggest bingo site",
+            "match": {
+              "location": "HomePageSteps.userShouldBeRedirectedToTheHomePageAndVerifyTheTextBritainSBiggestBingoSite()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "TombolaPage.feature"
+  }
+]
